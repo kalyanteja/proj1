@@ -1,0 +1,11 @@
+<div class="mt-5">
+
+  <h1> List of COuntries.. </h1>
+  <ul>
+    <li *ngFor="let co of countries">
+        <a routerLink="/details/{{co.name}}">{{co.name}}</a>'s capital is {{co.capital}}
+    </li>
+  </ul>
+
+
+</div>

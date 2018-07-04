@@ -1,0 +1,15 @@
+<div *ngIf="country">
+
+  <h1>{{country.name}}'s details</h1>
+
+  <li>{{country.capital}}</li>
+  <li>{{country.subregion}}</li>
+  <li>{{country.alpha2Code}}</li>
+
+</div>
+
+<div *ngIf="!country">
+
+  <h1>We'll see country details here if you go to <a href="#"> Home </a> and chose a country!</h1>
+
+</div>
